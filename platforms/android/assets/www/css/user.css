@@ -57,6 +57,8 @@ form {
 input.numberPlaceForm{
 		width : 2.5ch ;
 		margin : 0 ;
+		font-size : 125% ;
+		text-align : right ;
 		white-space : nowrap ;
 		background-color : #dfeeff ;
 }
@@ -66,7 +68,7 @@ input.numberPlaceForm:focus{
 }
 
 textarea{
-		width : 90% ;
+		width : 95% ;
 }
 
 /* Turn Off Number Input Spinners */
@@ -78,6 +80,11 @@ input[type=number]::-webkit-outer-spin-button {
 
 input[type=button] {
 		margin : 3px 8px 5px 0px ;
+		font-size : 100% ;
+}
+
+.setFormSize{
+		font-size : 120% ;
 }
 
 body {  /* 上下左右に余白が入らないように */
