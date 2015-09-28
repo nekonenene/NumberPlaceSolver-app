@@ -10,6 +10,10 @@ body {
 		font-family: Arial, Roboto, “Droid Sans”, “游ゴシック”, YuGothic, “ヒラギノ角ゴ ProN W3”, “Hiragino Kaku Gothic ProN”, “メイリオ”, Meiryo, sans-serif;
 }
 
+input {
+		font-family: Arial, Roboto, “Droid Sans”, “游ゴシック”, YuGothic, “ヒラギノ角ゴ ProN W3”, “Hiragino Kaku Gothic ProN”, “メイリオ”, Meiryo, sans-serif;
+}
+
 
 /* 回り込み解除 */
 
@@ -19,6 +23,55 @@ body {
 		font-size: 1px;
 		line-height: 0;
 		visibility: hidden;
+}
+
+/* 基本の設定 */
+body {  /* 上下左右に余白が入らないように */
+		white-space : nowrap ;
+		background-color: #f2f7f4;
+		margin: 0 0 2%;
+		padding: 0;
+		font-size: 16px;
+}
+
+p {
+		font-size: 100%;
+		margin: 5px 20px;
+		letter-spacing: 0.02em;
+}
+
+img {
+		border: 0;
+}
+
+h1,h2,h3,h4 {
+		margin: 25px 0 16px;
+		padding: 0 14px;
+}
+
+h1 {
+		/*color: #1e1ee6;*/
+		color : #FF3147 ;
+		font-size: 220%;
+		border-bottom: double 4px;
+}
+
+h2 {
+		color: #4949ce;
+		font-size: 150%;
+		border-bottom: double 4px;
+}
+
+h3 {
+		color: #324599;
+		font-size: 120%;
+		border-bottom: solid 2px;
+}
+
+h4 {
+		color: #2b3668;
+		font-size: 105%;
+		border-bottom: solid 1px;
 }
 
 
@@ -54,6 +107,23 @@ form {
 		white-space : nowrap ;
 }
 
+input[type=button] {
+		margin : 3px 8px 5px 0px ;
+		padding : 0.3ch 0.8ch ;
+		letter-spacing : 0.3ch ;
+}
+
+select{
+		font-size : 110% ;
+		margin : 0.2ex 0 ;
+		padding : 0.1ex 0.3ch ;
+}
+
+#makeFormsButton{
+		margin-left : 0 0.5ch ;
+		letter-spacing : 0.3ch ;
+}
+
 input.numberPlaceForm{
 		width : 2.5ch ;
 		margin : 0 ;
@@ -68,7 +138,8 @@ input.numberPlaceForm:focus{
 }
 
 textarea{
-		width : 95% ;
+		width : 96% ;
+		margin-left : 2% ;
 }
 
 /* Turn Off Number Input Spinners */
@@ -78,62 +149,9 @@ input[type=number]::-webkit-outer-spin-button {
 	margin: 0; 
 }
 
-input[type=button] {
-		margin : 3px 8px 5px 0px ;
-		font-size : 100% ;
-}
-
 .setFormSize{
 		font-size : 120% ;
 }
-
-body {  /* 上下左右に余白が入らないように */
-		background-color: #f2f7f4;
-		margin: 0 0 2%;
-		padding: 0;
-		font-size: 16px;
-}
-
-p {
-		font-size: 100%;
-		margin: 5px 20px;
-		letter-spacing: 0.02em;
-}
-
-img {
-		border: 0;
-}
-
-h1,h2,h3,h4 {
-		margin: 25px 0 16px;
-		padding: 0 14px;
-}
-
-h1 {
-		/*color: #1e1ee6;*/
-		color : red ;
-		font-size: 220%;
-		border-bottom: double 4px;
-}
-
-h2 {
-		color: #4949ce;
-		font-size: 150%;
-		border-bottom: double 4px;
-}
-
-h3 {
-		color: #324599;
-		font-size: 120%;
-		border-bottom: solid 2px;
-}
-
-h4 {
-		color: #2b3668;
-		font-size: 105%;
-		border-bottom: solid 1px;
-}
-
 
 /*----- 以下、テキストの微変更用 -----*/
 
