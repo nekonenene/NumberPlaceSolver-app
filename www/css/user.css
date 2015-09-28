@@ -40,6 +40,10 @@ p {
 		letter-spacing: 0.02em;
 }
 
+p.allowWrap {
+		white-space : normal ;
+}
+
 img {
 		border: 0;
 }

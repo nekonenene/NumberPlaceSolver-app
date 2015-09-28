@@ -684,7 +684,7 @@ SolveNumberPlace.MakeForm.prototype = {
 				/* 重複のある問題箇所のフォームへフォーカス */
 				numberPlaceInputFormsElements[ this.solveObject.progress.errorPlace[0] + this.solveObject.progress.errorPlace[1] * this.wholeBoxSize ].focus() ;
 			}else{
-				outputString = "解けませんでした。" ;
+				outputString = "解けませんでした" ;
 				/* フォームに出力 */
 				for(var i = 0; i < numberPlaceInputFormsElements.length; ++i){
 					if(this.answeredArray[i] !== undefined){
